@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Ganeen Adegboyega", rating: 5, text: "Extremely reliable and work maintenance is of a high standard. Joseph's explanation of work undertaking is very clear and re-assuring. I find JRB services as very reliable ", date: "5 months ago" },
+    { name: "Ann Ormston", rating: 5, text: "John was very helpful and knowledgeable when he repointed and restored my chimney. I would recommend him . ", date: "9 months ago" },
+    { name: "alex turner", rating: 5, text: "john biddle and his friendly team were a delight. I am very happy with my new patio and John's design ideas all worked out well . ", date: "3 years ago" },
+    { name: "Wayne Rumbold", rating: 5, text: "Very pleased with our new driveway. The whole experience was very professional and very well organised …would recommend to anyone looking to use one of their services.  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
