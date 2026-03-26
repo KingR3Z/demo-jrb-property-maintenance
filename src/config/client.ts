@@ -79,10 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Ganeen Adegboyega", rating: 5, text: "Extremely reliable and work maintenance is of a high standard. Joseph's explanation of work undertaking is very clear and re-assuring. I find JRB services as very reliable ", date: "5 months ago" },
-    { name: "Ann Ormston", rating: 5, text: "John was very helpful and knowledgeable when he repointed and restored my chimney. I would recommend him . ", date: "9 months ago" },
-    { name: "alex turner", rating: 5, text: "john biddle and his friendly team were a delight. I am very happy with my new patio and John's design ideas all worked out well . ", date: "3 years ago" },
-    { name: "Wayne Rumbold", rating: 5, text: "Very pleased with our new driveway. The whole experience was very professional and very well organised …would recommend to anyone looking to use one of their services.  ", date: "3 years ago" },
+    { name: "Ganeen Adegboyega", rating: 5, text: "Extremely reliable and work maintenance is of a high standard. Joseph's explanation of work undertaking is very clear and re-assuring. I find JRB services as very reliable", date: "5 months ago" },
+    { name: "Ann Ormston", rating: 5, text: "John was very helpful and knowledgeable when he repointed and restored my chimney. I would recommend him .", date: "9 months ago" },
+    { name: "Kurt", rating: 5, text: "John came highly recommended by a friend who had used his team do some work on their home, the quality of workmanship spoke for itself. We got John and his team in to do various improvements and upgrades around our house. We’ve had the driveway replaced, a number of trees and a hedge trimmed back, the roof and gutters cleaned and repaired following the recent storms. The whole team were pleasant and professional throughout and workmanship top notch. JRB property maintenance will be my first choice for any works on our home going forward. Highly recommended", date: "a year ago", badge: "Local Guide" },
+    { name: "Karen Jones", rating: 5, text: "John was really helpful in planning our new patio area and gave us some new ideas. His team worked hard to get the work completed in time and we are really pleased with the result. Would definitely recommend!", date: "a year ago" },
+    { name: "Wayne Rumbold", rating: 5, text: "Very pleased with our new driveway. The whole experience was very professional and very well organised …would recommend to anyone looking to use one of their services.", date: "3 years ago" },
+    { name: "alex turner", rating: 5, text: "john biddle and his friendly team were a delight. I am very happy with my new patio and John's design ideas all worked out well .", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
